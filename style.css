@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.main-flex{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    
+}
+
+.left{
+    color: white;
+    flex: 50%;
+    padding-left: 80px;
+    padding-top: 170px;
+}
+
+.heading{
+   font-size: 38px;
+}
+
+.right{
+    color: white;
+    flex: 50%;
+    padding: 80px;
+}
+
+.top{
+    background-color:hsl(249, 35%, 53%);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px -1px #000;
+    
+}
+
+.litetext{
+    font-weight: 100;
+}
+
+.bottom{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    height: 380px;
+    box-shadow: 0 3px 5px -1px #000;
+    font-family:'Poppins', sans-serif ;
+    
+}
+
+#firstname  {
+    width: 350px;
+    padding: 10px;
+    border-radius:  5px;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#lastname  {
+    width: 350px;
+    padding: 10px;
+    border-radius:  5px;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+#email  {
+    width: 350px;
+    padding: 10px;
+    border-radius:  5px;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+
+#password {
+    width: 350px;
+    padding: 10px;
+    border-radius:  5px;
+    border: 1px solid grey;
+    display: block;
+    margin-bottom: 20px;
+    font-family:'Poppins', sans-serif ;
+}
+
+.btn{
+    padding: 10px;
+    width: 350px;
+    font-weight: 500;
+    background-color: hsl(154, 59%, 51%);
+    border-radius:  5px;
+    border: 1px solid grey;
+    color: honeydew;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.error1{
+    visibility: hidden; display: inline-block; position: absolute; padding-left: 355px; padding-bottom: 30px;
+}
+
+.error2{
+    visibility: hidden; display: inline-block; position: absolute; padding-left: 355px; padding-bottom: 30px;
+}
+
+.error3{
+    visibility: hidden; display: inline-block; position: absolute; padding-left: 355px; padding-bottom: 30px;
+}
+
+.error4{
+    visibility: hidden; display: inline-block; position: absolute; padding-left: 355px; padding-bottom: 30px;
+}
+
+.agree{
+    font-size: 11px;
+    color: black;
+}
+
+.boldtext{
+    font-weight: 900;
+    color: red;
+}
+
+
+@media (max-width: 375px) {
+    .right, .left {
+      flex: 100%;
+    }
+    .body{
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("images/bg-intro-mobile.png");
+    }
+    
+}
