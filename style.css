@@ -57,7 +57,7 @@
     height: 380px;
     box-shadow: 0 3px 5px -1px #000;
     font-family:'Poppins', sans-serif ;
-    
+    align-items: center;
 }
 
 #firstname  {
